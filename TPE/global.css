@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Helvetica;
+}
+
+header img {
+	display: block;
+	margin: 10px auto;
+	height: 300px;
+	width: 650px;
+}
+
+#navigation {
+	width: flex 1 1;
+	font-size: 14px;
+	float: left;
+	overflow: hidden;
+	font-family: Verdana;
+}
+
+nav li {
+	display: block;
+	margin: 8px;
+}
+
+.navsec {
+	margin: 2px;
+	padding: 2px;
+	border: 1px transparent;
+	background-color: #D3D3D3;
+}
+
+#blocpage {
+	width: 80%;
+	float: right;
+}
+
+.leftpar {
+	width:49%;
+	float: left;
+	clear: right;
+	margin-right: 2%;
+	height: 100px;
+}
+
+.rightpar {
+	width: 49%;
+	float: right;
+	clear: left;
+	height: 100px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+footer p {
+	display: block;
+	clear: both;
+	margin: 30px;
+}

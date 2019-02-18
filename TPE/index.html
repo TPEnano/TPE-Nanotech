@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="global.css">
+<script>
+	window.onscroll = function() {stickfunc()};
+
+	var navbar = document.getElementById("navigation");
+	var sticky = navbar.offsetTop;
+
+	function stickfunc() {
+		if (windows.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		}
+		else {
+			navbar.classList.remove("sticky")
+		}
+	}
+</script>
+<title>Accueil - TPE</title>
+</head>
+
+<body>
+	<header>
+		<img src="banner.png" alt="Banniere du Site" />
+		<div id="navigation">
+			<nav>
+				<ul>
+					<div class="navsec">
+						<li>Acceuil</li></a>
+					</div>
+					<div class="navsec">
+						<li>La Nanotechnologie</li>
+						<ol>
+							<li>Presentation</li>
+							<li>Debuts</li>
+							<li>Applications</li>
+						</ol>
+					</div>
+					<div class="navsec">
+						<li>Le Cancer</li>
+						<ol>
+							<li>Presentation</li>
+							<li>Statistiques</li>
+							<li>Methodes Actuels</li>
+						</ol>
+					</div>
+					<div class="navsec">
+						<li>Diagnostic Precoce</li>
+					</div>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<div id="blocpage">
+		<section class="leftpar">
+			<h4>Bienvenue</h4>
+			<p>Ce TPE a été réalisé par Sam Harb, Jad Safieddine, Anas Kojok et Karim Bou Orm dans le but de presenter quelques informations sur la nanotechnologie et son application dans le domaine medicale, surtout dans le traitement du cancer.</p>
+		</section>
+		<section class="rightpar">
+			<h4>Le probleme du cancer</h4>	
+			<p>okahhklgja</p>
+		</section>
+		<section class="leftpar">
+			<h4>Quelques nombres concernant le cancer</h4>
+			<p>Insert Statistics Here</p>
+		</section>
+		<section class="rightpar">
+			<h4>Methodes de traitement et de detection imparfaites</h4>
+			<p>Open with weakness and develop later</p>
+		</section>
+		<section class="leftpar">
+			<h4>La nanotechnologie</h4>
+			<p> Enter nanotech</p>
+		</section>
+	</div>
+
+	<footer>
+		<p> Done.<br />Or are we?</p>
+	</footer>
+
+</body>
+</html>
