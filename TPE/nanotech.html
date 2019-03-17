@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="global.css">
+<script>
+	window.onscroll = function() {stickfunc()};
+
+	var navbar = document.getElementById("navigation");
+	var sticky = navbar.offsetTop;
+
+	function stickfunc() {
+		if (windows.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		}
+		else {
+			navbar.classList.remove("sticky")
+		}
+	}
+</script>
+<title>La Nanotechnologie</title>
+</head>
+
+<body>
+	<header>
+		<img src="banner.png" alt="Banniere du Site" />
+		<div id="navigation">
+			<nav>
+				<ul>
+					<div class="navsec">
+						<a href="index.html"; target="_blank_"><li>Acceuil</li></a>
+					</div>
+					<div class="navsec">
+						<li>La Nanotechnologie</li>
+						<ol>
+							<li>Presentation</li>
+							<li>Debuts</li>
+							<li>Applications</li>
+						</ol>
+					</div>
+					<div class="navsec">
+						<li>Le Cancer</li>
+						<ol>
+							<li>Presentation</li>
+							<li>Statistiques</li>
+							<li>Methodes Actuels</li>
+						</ol>
+					</div>
+					<div class="navsec">
+						<li>Diagnostic Precoce</li>
+					</div>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="blocpage" >
+		<section class="leftpar" >
+			<h4> Qu'est ce que la nanotechnologie? </h4>
+			<p></p>
+		</section>
+		<section class="rightpar" >
+			<h4> Ses Debuts </h4>
+			<p></p>
+		</section>
+		<section class="leftpar" >
+			<h4> Ses divers applications </h4>
+			<p></p>
+		</section>

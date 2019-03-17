@@ -60,6 +60,15 @@ nav li {
   width: 100%;
 }
 
+a {
+	color: blue;
+}
+
+a:active {
+	color: black;
+	text-decoration: none;
+}
+
 footer p {
 	display: block;
 	clear: both;
