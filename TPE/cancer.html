@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="global.css">
+<script>
+	window.onscroll = function() {stickfunc()};
+
+	var navbar = document.getElementById("navigation");
+	var sticky = navbar.offsetTop;
+
+	function stickfunc() {
+		if (windows.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		}
+		else {
+			navbar.classList.remove("sticky")
+		}
+	}
+</script>
+<title>La Nanotechnologie</title>
+</head>
+
+<body>
+	<header>
+		<img src="banner.png" alt="Banniere du Site" />
+		<div id="navigation">
+			<nav>
+				<ul>
+					<div class="navsec">
+						<a href="index.html"; target="_blank_"><li>Acceuil</li></a>
+					</div>
+					<div class="navsec">
+						<li>Le Cancer</li>
+						<ol>
+							<li>Presentation</li>
+							<li>Statistiques</li>
+							<li>Methodes Actuels</li>
+						</ol>
+					</div>
+					<div class="navsec">
+						<a href="nanotech.html"; target="_blank_"><li>La Nanotechnologie</li></a>
+						<ol>
+							<li>Presentation</li>
+							<li>Debuts</li>
+							<li>Applications</li>
+						</ol>
+					</div>
+					<div class="navsec">
+						<li>Diagnostic Precoce</li>
+					</div>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="blocpage" >
+		<section class="leftpar">
+			<h4>Qu’est-ce que le cancer?</h4>
+			<p>Le cancer est une maladie caractérisée par l’apparition d’une tumeur causée par une prolifération anormalement importante d’une cellule atteinte de plusieurs mutations. Cette tumeur menace la survie des tissus environnants en leur arrachant leurs nutriments.
+			Les cellules cancéreuses possèdent plusieurs propriétés : elles sont immortelles, peuvent déclencher l’angiogenèse (c’est-à-dire la création de nouveaux vaisseaux sanguins autour de la tumeur) qui leur permet d’arracher encore plus de nutriments aux cellules saines environnantes. De plus, les cellules cancéreuses sont insensibles aux signaux antiprolifératifs du cerveau, le phénomène d’apoptose (suicide de la cellule par signal nerveux) est impossible.
+			</p>
+		</section>
+		<section class="rightpar">
+			<h4>Méthodes de Détection</h4>
+			<p>Les méthodes de détection du cancer varient largement en fonction de l’organe affecté. Le cancer de sein, par exemple, est détecté par mammographie alors que le cancer du cerveau est détecté par IRM : deux méthodes extrêmement différentes. Cependant, la plupart des méthodes utilisées actuellement ont un point en commun : l’utilisation de rayons UV. Comme nous l’avons expliqué, le cancer résulte de mutations auprès d’une cellule. Ces mutations sont dues à un ensemble de  mutagènes dont les UV en font partie. Ces méthodes portent donc déjà le risque d’aggraver, ou même de créer, une tumeur cancéreuse.
+			En plus de cela, ces méthodes ne réussissent pas à détecter une tumeur de moins de 10 millions de cellules, un stade plutôt avancé. La détection précoce est  très importante pour assurer la guérison du patient le plus tôt possible. Il est donc crucial de développer des méthodes qui peuvent détecter les cellules cancéreuses dans leurs stades initiaux.
+			Plusieurs études se penchent sur ce sujet, certains proposent une détection par prélèvement sanguin mais l’étude ayant le plus de potentiel est celle utilisant la nanotechnologie comme outil de détection.
+			</p>
+		</section>
+
+</body>	
