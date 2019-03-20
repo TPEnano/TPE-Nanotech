@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="global.css">
+	<script>
+		window.onscroll = function() {stickfunc()};
+
+		var navbar = document.getElementById("navigation");
+		var sticky = navbar.offsetTop;
+
+		function stickfunc() {
+			if (windows.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			}
+			else {
+				navbar.classList.remove("sticky")
+			}
+		}
+	</script>
+	<title>Traitement par Nanotechnologie</title>
+</head>
+
+<body>
+
+<header>
+		<img src="Banniere.png" alt="Banniere du Site" />
+		<div id="navigation">
+			<nav>
+				<ul>
+					<div class="navsec">
+						<a href="index.html"; target="_blank_"><li>Acceuil</li></a>
+					</div>
+					<div class="navsec">
+						<a href="cancer.html"; target="_blank_"><li>Le Cancer</li></a>
+						<ol>
+							<li>Presentation</li>
+							<li>Statistiques</li>
+							<li>Methodes Actuels</li>
+						</ol>
+					</div>
+					<div class="navsec">
+						<a href="nanotech.html"; target="_blank_"><li>La Nanotechnologie</li></a>
+						<ol>
+							<li>Presentation</li>
+							<li>Debuts</li></a>
+							<li>Applications</li>
+						</ol>
+					</div>
+					<div class="navsec">
+						<li>Traitement Nano</li>
+						<ol>
+							<li>Diagnostic précoce</li>
+							<li>Méthodes Traitement</li>
+							<li>Limites</li>
+						</ol>
+					</div>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<div id="blocpage">
+		<section class="leftpar">
+			<h4>Diagnostic précoce</h4>
+			<p>Nous savons que les chances de survie d’un patient atteint de cancer diminuent de manière exponentielle avec l’avancement du stade  dans lequel le cancer a été détecté. Il est donc impératif de trouver un moyen pour diagnostiquer le cancer le plus tôt possible.<br />
+			Heureusement, la nanoscience nous apporte une solution à ce problème. Les nanorobots, armés de micropuces électroniques superposées par des molécules humaines, sont programmes pour envoyer un signal lorsqu’ils détectent une anomalie. Les tumeurs cancéreuses sèment dans le sang ce qu’on appelle « biomarqueurs tumoraux circulants » très utiles pour traquer la tumeur. Le défi a été de pouvoir les détecter ; or, grâce aux nanorobots, il serait possible de détecter ces biomarqueurs avant même que la tumeur ne se serait développée. Les  « quantum dots », nanorobots semi-conducteurs, pourraient être programmés pour émettre une lumière suite à la détection de biomarqueurs tumoraux. L’utilisation de cette méthode n’apporte aucun effet secondaire au patient puisqu’elle ne demande qu’une simple prise de sang. 
+			</p>
+		</section>
+	</div>
+	<div id="footer">
+		<p>Contactez nous: <br /> samharb2002@hotmail.com</p>
+	</div>
+
+</body>
+
+</html>
