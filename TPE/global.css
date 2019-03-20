@@ -11,7 +11,7 @@ header img {
 	display: block;
 	margin: 10px auto;
 	height: 300px;
-	width: 650px;
+	width: 500px;
 }
 
 #navigation {
@@ -57,6 +57,25 @@ nav li {
   width: 100%;
 }
 
+.imageright p {
+	font-size: .9em;
+	opacity: 0.7;
+}
+
+.imageleft p {
+	font-size: .9em;
+	opacity: 0.7;
+}
+
+.imageright {
+	float:right; 
+	margin-right: 10px;
+}
+
+.imageleft {
+	float:left; 
+	margin-left: 10px;
+}
 
 a {
 	text-decoration: none;
@@ -70,13 +89,18 @@ a:hover{
 }
 
 p {
-	margin: : 10px;
+	margin: 20px;
+	padding: : 20px;
 }
 
+#footer {
+	clear: both;
+	margin: 20px;
+	border-top: 2px solid grey;
+}
 
-
-footer p {
-	display: block;
+#footer p {
 	clear: both;
 	margin: 30px;
+	text-align: center;
 }
