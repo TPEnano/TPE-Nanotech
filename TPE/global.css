@@ -35,7 +35,7 @@ nav li {
 }
 
 #blocpage {
-	width: 80%;
+	width: 85%;
 	float: right;
 }
 
@@ -79,13 +79,16 @@ nav li {
 
 a {
 	text-decoration: none;
-	color: blue;
+	color: black;
 }
 
+a li {
+	border-bottom: 2px solid rgba(41,217,214,.5);
+}
 
-a:hover{
-	text-decoration: underline;
-	color: blue;
+a:hover li{
+	text-decoration: none;
+	background-color: rgba(41,217,214,.5);
 }
 
 p {
